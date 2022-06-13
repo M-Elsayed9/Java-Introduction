@@ -1,0 +1,49 @@
+Script started on 2022-06-12 20:13:26-04:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="120" LINES="30"]
+]0;mohamed@Mohamed-Elsayed: /mnt/c/github-repositories/cisc-1115/hw1/src[01;32mmohamed@Mohamed-Elsayed[00m:[01;34m/mnt/c/github-repositories/cisc-1115/hw1/src[00m$ java [Kc Grade_Calculator.java
+]0;mohamed@Mohamed-Elsayed: /mnt/c/github-repositories/cisc-1115/hw1/src[01;32mmohamed@Mohamed-Elsayed[00m:[01;34m/mnt/c/github-repositories/cisc-1115/hw1/src[00m$ java Grade_Calculator
+Enter Homework Grade out of 20: 
+20
+Enter Codelab Grade out of 20: 
+18
+Enter Midterm1 Grade out of 20: 
+17
+Enter Midterm2 Grade out of 20: 
+16.5
+Enter Final Grade out of 20: 
+18.9
+
+The Total Score is: 90.4/100
+
+Thank You!
+]0;mohamed@Mohamed-Elsayed: /mnt/c/github-repositories/cisc-1115/hw1/src[01;32mmohamed@Mohamed-Elsayed[00m:[01;34m/mnt/c/github-repositories/cisc-1115/hw1/src[00m$ javac Ci[K[KRectangle_Stat.java
+]0;mohamed@Mohamed-Elsayed: /mnt/c/github-repositories/cisc-1115/hw1/src[01;32mmohamed@Mohamed-Elsayed[00m:[01;34m/mnt/c/github-repositories/cisc-1115/hw1/src[00m$ java Rectangle_Stat 
+Enter the value of the Width in cm:
+10
+Enter the value of the length in cm:
+15
+
+When one of the width sides is = 10.0 cm
+
+and one of the length sides is = 15.0 cm
+
+the area is = 150.0 cm
+
+and the perimeter is = 50.0 cm
+
+Thank you!
+]0;mohamed@Mohamed-Elsayed: /mnt/c/github-repositories/cisc-1115/hw1/src[01;32mmohamed@Mohamed-Elsayed[00m:[01;34m/mnt/c/github-repositories/cisc-1115/hw1/src[00m$ javac Circle_Stat.java 
+]0;mohamed@Mohamed-Elsayed: /mnt/c/github-repositories/cisc-1115/hw1/src[01;32mmohamed@Mohamed-Elsayed[00m:[01;34m/mnt/c/github-repositories/cisc-1115/hw1/src[00m$ java Circle_Stat 
+Enter the value of the radius in cm: 
+9
+
+When the radius is = 9.0 cm
+
+The circumference is = 56.52 cm
+
+and the area is = 254.34 cm
+
+Thank you!
+]0;mohamed@Mohamed-Elsayed: /mnt/c/github-repositories/cisc-1115/hw1/src[01;32mmohamed@Mohamed-Elsayed[00m:[01;34m/mnt/c/github-repositories/cisc-1115/hw1/src[00m$ exit
+exit
+
+Script done on 2022-06-12 20:15:22-04:00 [COMMAND_EXIT_CODE="0"]
