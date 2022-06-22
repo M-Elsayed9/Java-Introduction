@@ -9,10 +9,13 @@ public class HW2 {
 		
 		//declare input variables
 		String date; 
-		int sku;
+		int sku = 0;
 		double price, discount, tax;
 		double pad = 0; //price after discount
 		double max = 0, min = 1000, i = 0; //maximum and minimum variables
+		int max_sku = 0;
+		int min_sku = 0;
+		
 		//Create a Scanner object to read the input file
 		Scanner inputFile = new Scanner(new File("HW2inputFile.txt"));	//inputFile is a Scanner reference variable
 				
@@ -51,18 +54,28 @@ public class HW2 {
 			if(i==1) {
 				max = pad;
 				min = pad;
-			
 			}
 			
 			//extract the maximum and minimum values using a math class  
 			max = Math.max(max, pad);
 			min = Math.min(min, pad);
+			
+			//use an if statement to extract the SKU of the highest and lowest prices
+			if(max == pad) {
+				max_sku = sku;
+			}
+			
+			if(min == pad) {
+				min_sku = sku;
+			}
+			
 					
 		}
 		
+		
 		//print out the highest and lowest item price
-		outputFile.println("The highest price item is #133 at " + max + " USD");
-		outputFile.println("The lowest price item is #119 at " + min + " USD");
+		outputFile.println("The highest price item is #" + max_sku  + " at " + max + " USD");
+		outputFile.println("The lowest price item is #" + min_sku + " at " + min + " USD");
 		
 		//show that the program has completed
 		outputFile.println("\nEnd of Report");
