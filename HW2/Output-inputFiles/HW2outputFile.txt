@@ -49,6 +49,7 @@ The total is = 33.25 USD
 The tax amount is = 2.951 USD
 -------------------------
 
+The total sum is = 247.74 USD
 The highest price item is #133 at 69.93 USD
 The lowest price item is #119 at 9.0 USD
 
