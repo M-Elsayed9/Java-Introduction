@@ -15,6 +15,7 @@ public class HW2 {
 		double max = 0, min = 1000, i = 0; //maximum and minimum variables
 		int max_sku = 0;
 		int min_sku = 0;
+		double total = 0;
 		
 		//Create a Scanner object to read the input file
 		Scanner inputFile = new Scanner(new File("HW2inputFile.txt"));	//inputFile is a Scanner reference variable
@@ -36,6 +37,7 @@ public class HW2 {
 			price = inputFile.nextDouble();
 			discount = inputFile.nextDouble();
 			
+			  
 			//Print the data from the inputfile 
 			outputFile.printf("%s%12s%12.2f%12.1f",date,sku, price ,discount);
 			outputFile.println("\n");
@@ -50,11 +52,15 @@ public class HW2 {
 			outputFile.printf("%.3f%s", tax, " USD\n");
 			outputFile.println("-------------------------\n");
 			
+			//calculate the total of pad
+			total += pad;
+			
 			//use an if statement to initialize the maximum and minimum values
 			if(i==1) {
 				max = pad;
 				min = pad;
 			}
+			
 			
 			//extract the maximum and minimum values using a math class  
 			max = Math.max(max, pad);
@@ -72,7 +78,8 @@ public class HW2 {
 					
 		}
 		
-		
+		//printout the total 
+		outputFile.println("The total sum is = " + total + " USD");
 		//print out the highest and lowest item price
 		outputFile.println("The highest price item is #" + max_sku  + " at " + max + " USD");
 		outputFile.println("The lowest price item is #" + min_sku + " at " + min + " USD");
