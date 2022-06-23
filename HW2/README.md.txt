@@ -1,7 +1,7 @@
 Homework 2
 
 *in this homework we utitlize scanning from an inputfile and printing to an output file 
-*we also use a while loop and if statements 
+*we also use a while loop and an if statment 
 
 The accounting department of big box retailer’s corporate office needs a program written to help verify
 the transactions to make sure bookkeeping is correct.
