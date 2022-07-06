@@ -59,14 +59,15 @@ public class program1 {
         {
   
             // Print the result
-        	//System.out.print(num1 + " ");
-        	outputFile.print(num1 + " ");
+            //System.out.print(num1 + " ");
+            outputFile.print(num1 + " ");
         	
-        	//switch the values after every iteration to get the right result
+            //switch the values after every iteration to get the right result
             num3 = num2 + num1;
             num1 = num2;
             num2 = num3;
             counter = counter + 1;
+		
         } while (counter < z);
         
         //System.out.println("\n");
