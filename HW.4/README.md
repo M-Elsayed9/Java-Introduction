@@ -1,6 +1,6 @@
 **How to run the source file
 
-1-download the source "arrayMethods.java" to your device
+1-download the source file "arrayMethods.java" to your device
 
 2-in the terminal write the commands "javac arrayMethods.java"  to compile 
 && "java arrayMethods" to run the program. 
