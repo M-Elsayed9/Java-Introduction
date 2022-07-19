@@ -1,0 +1,8 @@
+Vehicle Type: (Train)
+Hour		Distance Traveled
+---------------------------------
+1				120
+2				240
+3				360
+4				480
+5				600
