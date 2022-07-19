@@ -1,0 +1,10 @@
+Script started on 2022-07-19 11:49:39-04:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="120" LINES="30"]
+]0;mohamed@Mohamed-Elsayed: /mnt/c/github-repositories/cisc-1115/hw.5/src[01;32mmohamed@Mohamed-Elsayed[00m:[01;34m/mnt/c/github-repositories/cisc-1115/hw.5/src[00m$ javac distanceTraveled.java
+]0;mohamed@Mohamed-Elsayed: /mnt/c/github-repositories/cisc-1115/hw.5/src[01;32mmohamed@Mohamed-Elsayed[00m:[01;34m/mnt/c/github-repositories/cisc-1115/hw.5/src[00m$ java distanceTraveled
+Program terminated
+Please refer to the outputfiles generated for each vehicle with a .txt extension 
+E.g: "Train.txt", "Car.txt", etc... 
+]0;mohamed@Mohamed-Elsayed: /mnt/c/github-repositories/cisc-1115/hw.5/src[01;32mmohamed@Mohamed-Elsayed[00m:[01;34m/mnt/c/github-repositories/cisc-1115/hw.5/src[00m$ exit
+exit
+
+Script done on 2022-07-19 11:50:14-04:00 [COMMAND_EXIT_CODE="0"]
