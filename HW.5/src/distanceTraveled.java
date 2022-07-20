@@ -3,6 +3,7 @@ import java.io.File;
 import java.io.PrintStream;
 import java.io.IOException;
 
+
 public class distanceTraveled {
 
 	public static void main(String[] args) throws IOException {
@@ -19,12 +20,15 @@ public class distanceTraveled {
 		//consume the input header
 		header = inputfile.nextLine();
 		
+		//use a delimiter to read input
+		inputfile.useDelimiter(",|\\n");
+		
 		//use a while loop to iterate and consume 
 		while(inputfile.hasNext()) {
 			
 			vehicle = inputfile.next();
-			speed = inputfile.nextInt();
-			time = inputfile.nextInt();
+			speed = Integer.parseInt(inputfile.next());
+            time = Integer.parseInt(inputfile.next().trim());
 			
 			//invoke the saveAsFile method to print the output to different files
 			saveAsFile(vehicle,speed,time);
@@ -48,7 +52,7 @@ public class distanceTraveled {
 		//System.out.println("Hour\t\tDistance Traveled");
 		//System.out.println("---------------------------------");
 		
-		//use a conditinal statement to validate input 
+		//use a conditional statement to validate input 
 		if (speed1 >= 0 && time1 > 0) { 
 			
 			//index hour with each value of time 
