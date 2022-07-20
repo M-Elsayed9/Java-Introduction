@@ -28,7 +28,7 @@ public class distanceTraveled {
 			
 			vehicle = inputfile.next();
 			speed = Integer.parseInt(inputfile.next());
-            time = Integer.parseInt(inputfile.next().trim());
+          		time = Integer.parseInt(inputfile.next().trim());
 			
 			//invoke the saveAsFile method to print the output to different files
 			saveAsFile(vehicle,speed,time);
