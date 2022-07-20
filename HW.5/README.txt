@@ -2,7 +2,7 @@ Homework 5
 
 instructions for running the program:
 
-1-Download the src file (distanceTraveled.java) & the inputfile (HDT_inputFile.txt) into one folder.
+1-Download the src file (distanceTraveled.java) & the inputfile (DT_inputFile.txt) into one folder.
 2-open the terminal and run the command javac distanceTraveled.java to compile
 3-run the command java distanceTraveled to run the program, this will generate 8 different outputfiles with the report for each vehicle
 E.g: "Train.txt", "Car.txt", etc... 
