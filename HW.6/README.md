@@ -58,5 +58,7 @@ month.
 Here is a sample run of the program:
 
 Enter a month (1-12): 2 [Enter]
+
 Enter a year: 2008 [Enter]
+
 February 2008 has 29 days
