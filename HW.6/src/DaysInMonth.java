@@ -24,7 +24,7 @@ public class DaysInMonth {
 		//create a new month object
 		Month moName = new Month();
 		
-		//invoke the getMonthName method on the moName object to the get the name of the month
+		//invoke the toString method on the moName object to the get the name of the month
 		monthName = moName.toString(month);
 		
 		//create a new Monthdays object
