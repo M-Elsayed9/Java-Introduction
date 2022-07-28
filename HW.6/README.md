@@ -1,10 +1,11 @@
 Instructions for running the program: 
 
--download the source files "DaysInMonth.java" which contains the main method 
-& "Month.java" which contains the Month class and the MonthDys sub-class into one folder
+-download the source file "DaysInMonth.java"  
 -run the program using javac DaysInMonth.java && java DaysInMonth
 -Enter the month and the year as prompted on the screen 
 -the output will be generated on the screen
+
+for more info refer to the log folder
 
 
 Homework 6
