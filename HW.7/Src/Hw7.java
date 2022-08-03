@@ -112,7 +112,7 @@ public class Hw7 {
 	        		
 	        		//increase the mileage and display the current mileage consistently 
 	    			if(currFuel != 0) {
-	        		odometer.addMileage();
+	    				odometer.addMileage();
 	    			}
 	    			currMileage = odometer.getMileage();
 					output.println("Mileage: " + currMileage);
@@ -125,11 +125,11 @@ public class Hw7 {
 					if(currFuel != 0) {
 	        			output.println("-Low Fuel!");
 	        		}else if( currFuel == 0) {
-		        			output.println("-Empty Tank!");
+	        			output.println("-Empty Tank!");
 	        		}
 					output.println("------------------------------");
-			       // System.out.printf("Fuel level:  %.2f %s",  currFuel, " gallons\n");
-			        //System.out.println("------------------------------");
+					//System.out.printf("Fuel level:  %.2f %s",  currFuel, " gallons\n");
+					//System.out.println("------------------------------");
 	        	}
 	        }	
 		}
@@ -137,7 +137,7 @@ public class Hw7 {
 		//notify the user the program has terminated
 		System.out.println("\nProgram terminated\nPlease refer to the output file (" + carMake.concat(".txt)"));
 		
-		//close the input file
+		//close the input scanner
 		input.close();
 	}
 }
