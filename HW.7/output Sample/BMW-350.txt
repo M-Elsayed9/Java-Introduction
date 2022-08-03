@@ -1,0 +1,480 @@
+Car make: BMW-350
+Year Model: 2002
+Full Tank at: 15.0 Gallons
+initial mileage: 0 Mile
+
+Current Speed: 5 MPH
+Mileage: 1
+Fuel level:  15.00  gallons
+------------------------------
+Mileage: 2
+Fuel level:  15.00  gallons
+------------------------------
+Mileage: 3
+Fuel level:  15.00  gallons
+------------------------------
+Mileage: 4
+Fuel level:  15.00  gallons
+------------------------------
+Mileage: 5
+Fuel level:  15.00  gallons
+------------------------------
+Mileage: 6
+Fuel level:  15.00  gallons
+------------------------------
+Mileage: 7
+Fuel level:  15.00  gallons
+------------------------------
+Mileage: 8
+Fuel level:  15.00  gallons
+------------------------------
+Mileage: 9
+Fuel level:  15.00  gallons
+------------------------------
+Mileage: 10
+Fuel level:  15.00  gallons
+------------------------------
+Mileage: 11
+Fuel level:  15.00  gallons
+------------------------------
+Mileage: 12
+Fuel level:  15.00  gallons
+------------------------------
+Mileage: 13
+Fuel level:  15.00  gallons
+------------------------------
+Current Speed: 60 MPH
+Mileage: 14
+Fuel level:  14.94  gallons
+------------------------------
+Mileage: 15
+Fuel level:  14.94  gallons
+------------------------------
+Current Speed: 60 MPH
+Mileage: 16
+Fuel level:  14.86  gallons
+------------------------------
+Mileage: 17
+Fuel level:  14.86  gallons
+------------------------------
+Current Speed: 60 MPH
+Mileage: 18
+Fuel level:  14.64  gallons
+------------------------------
+Mileage: 19
+Fuel level:  14.64  gallons
+------------------------------
+Current Speed: 60 MPH
+Mileage: 20
+Fuel level:  14.39  gallons
+------------------------------
+Mileage: 21
+Fuel level:  14.39  gallons
+------------------------------
+Current Speed: 60 MPH
+Mileage: 22
+Fuel level:  14.26  gallons
+------------------------------
+Mileage: 23
+Fuel level:  14.26  gallons
+------------------------------
+Current Speed: 60 MPH
+Mileage: 24
+Fuel level:  12.72  gallons
+------------------------------
+Mileage: 25
+Fuel level:  12.72  gallons
+------------------------------
+Current Speed: 60 MPH
+Mileage: 26
+Fuel level:  12.64  gallons
+------------------------------
+Mileage: 27
+Fuel level:  12.64  gallons
+------------------------------
+Current Speed: 60 MPH
+Mileage: 28
+Fuel level:  12.62  gallons
+------------------------------
+Mileage: 29
+Fuel level:  12.62  gallons
+------------------------------
+Current Speed: 60 MPH
+Mileage: 30
+Fuel level:  12.48  gallons
+------------------------------
+Mileage: 31
+Fuel level:  12.48  gallons
+------------------------------
+Current Speed: 60 MPH
+Mileage: 32
+Fuel level:  12.45  gallons
+------------------------------
+Mileage: 33
+Fuel level:  12.45  gallons
+------------------------------
+Current Speed: 60 MPH
+Mileage: 34
+Fuel level:  12.30  gallons
+------------------------------
+Mileage: 35
+Fuel level:  12.30  gallons
+------------------------------
+Current Speed: 60 MPH
+Mileage: 36
+Fuel level:  12.05  gallons
+------------------------------
+Mileage: 37
+Fuel level:  12.05  gallons
+------------------------------
+Current Speed: 60 MPH
+Mileage: 38
+Fuel level:  11.81  gallons
+------------------------------
+Mileage: 39
+Fuel level:  11.81  gallons
+------------------------------
+Current Speed: 60 MPH
+Mileage: 40
+Fuel level:  11.72  gallons
+------------------------------
+Mileage: 41
+Fuel level:  11.72  gallons
+------------------------------
+Current Speed: 60 MPH
+Mileage: 42
+Fuel level:  11.70  gallons
+------------------------------
+Mileage: 43
+Fuel level:  11.70  gallons
+------------------------------
+Current Speed: 60 MPH
+Mileage: 44
+Fuel level:  11.43  gallons
+------------------------------
+Mileage: 45
+Fuel level:  11.43  gallons
+------------------------------
+Current Speed: 60 MPH
+Mileage: 46
+Fuel level:  11.28  gallons
+------------------------------
+Mileage: 47
+Fuel level:  11.28  gallons
+------------------------------
+Current Speed: 60 MPH
+Mileage: 48
+Fuel level:  10.15  gallons
+------------------------------
+Mileage: 49
+Fuel level:  10.15  gallons
+------------------------------
+Current Speed: 60 MPH
+Mileage: 50
+Fuel level:  10.02  gallons
+------------------------------
+Mileage: 51
+Fuel level:  10.02  gallons
+------------------------------
+Current Speed: 60 MPH
+Mileage: 52
+Fuel level:  9.74  gallons
+------------------------------
+Mileage: 53
+Fuel level:  9.74  gallons
+------------------------------
+Current Speed: 60 MPH
+Mileage: 54
+Fuel level:  9.59  gallons
+------------------------------
+Mileage: 55
+Fuel level:  9.59  gallons
+------------------------------
+Current Speed: 60 MPH
+Mileage: 56
+Fuel level:  9.35  gallons
+------------------------------
+Mileage: 57
+Fuel level:  9.35  gallons
+------------------------------
+Current Speed: 60 MPH
+Mileage: 58
+Fuel level:  9.35  gallons
+------------------------------
+Mileage: 59
+Fuel level:  9.35  gallons
+------------------------------
+Current Speed: 60 MPH
+Mileage: 60
+Fuel level:  9.29  gallons
+------------------------------
+Mileage: 61
+Fuel level:  9.29  gallons
+------------------------------
+Current Speed: 60 MPH
+Mileage: 62
+Fuel level:  9.24  gallons
+------------------------------
+Mileage: 63
+Fuel level:  9.24  gallons
+------------------------------
+Current Speed: 60 MPH
+Mileage: 64
+Fuel level:  8.96  gallons
+------------------------------
+Mileage: 65
+Fuel level:  8.96  gallons
+------------------------------
+Current Speed: 60 MPH
+Mileage: 66
+Fuel level:  8.91  gallons
+------------------------------
+Mileage: 67
+Fuel level:  8.91  gallons
+------------------------------
+Current Speed: 60 MPH
+Mileage: 68
+Fuel level:  8.82  gallons
+------------------------------
+Mileage: 69
+Fuel level:  8.82  gallons
+------------------------------
+Current Speed: 60 MPH
+Mileage: 70
+Fuel level:  8.74  gallons
+------------------------------
+Mileage: 71
+Fuel level:  8.74  gallons
+------------------------------
+Current Speed: 60 MPH
+Mileage: 72
+Fuel level:  7.35  gallons
+------------------------------
+Mileage: 73
+Fuel level:  7.35  gallons
+------------------------------
+Current Speed: 60 MPH
+Mileage: 74
+Fuel level:  7.35  gallons
+------------------------------
+Mileage: 75
+Fuel level:  7.35  gallons
+------------------------------
+Current Speed: 60 MPH
+Mileage: 76
+Fuel level:  7.20  gallons
+------------------------------
+Mileage: 77
+Fuel level:  7.20  gallons
+------------------------------
+Current Speed: 60 MPH
+Mileage: 78
+Fuel level:  7.06  gallons
+------------------------------
+Mileage: 79
+Fuel level:  7.06  gallons
+------------------------------
+Current Speed: 60 MPH
+Mileage: 80
+Fuel level:  6.97  gallons
+------------------------------
+Mileage: 81
+Fuel level:  6.97  gallons
+------------------------------
+Current Speed: 60 MPH
+Mileage: 82
+Fuel level:  6.72  gallons
+------------------------------
+Mileage: 83
+Fuel level:  6.72  gallons
+------------------------------
+Current Speed: 60 MPH
+Mileage: 84
+Fuel level:  6.62  gallons
+------------------------------
+Mileage: 85
+Fuel level:  6.62  gallons
+------------------------------
+Current Speed: 60 MPH
+Mileage: 86
+Fuel level:  6.47  gallons
+------------------------------
+Mileage: 87
+Fuel level:  6.47  gallons
+------------------------------
+Current Speed: 60 MPH
+Mileage: 88
+Fuel level:  6.46  gallons
+------------------------------
+Mileage: 89
+Fuel level:  6.46  gallons
+------------------------------
+Current Speed: 60 MPH
+Mileage: 90
+Fuel level:  6.22  gallons
+------------------------------
+Mileage: 91
+Fuel level:  6.22  gallons
+------------------------------
+Current Speed: 60 MPH
+Mileage: 92
+Fuel level:  6.12  gallons
+------------------------------
+Mileage: 93
+Fuel level:  6.12  gallons
+------------------------------
+Current Speed: 60 MPH
+Mileage: 94
+Fuel level:  5.96  gallons
+------------------------------
+Mileage: 95
+Fuel level:  5.96  gallons
+------------------------------
+Current Speed: 60 MPH
+Mileage: 96
+Fuel level:  4.18  gallons
+------------------------------
+Mileage: 97
+Fuel level:  4.18  gallons
+------------------------------
+Current Speed: 60 MPH
+Mileage: 98
+Fuel level:  4.14  gallons
+------------------------------
+Mileage: 99
+Fuel level:  4.14  gallons
+------------------------------
+Current Speed: 60 MPH
+Mileage: 100
+Fuel level:  3.86  gallons
+------------------------------
+Mileage: 101
+Fuel level:  3.86  gallons
+------------------------------
+Current Speed: 60 MPH
+Mileage: 102
+Fuel level:  3.66  gallons
+------------------------------
+Mileage: 103
+Fuel level:  3.66  gallons
+------------------------------
+Current Speed: 60 MPH
+Mileage: 104
+Fuel level:  3.63  gallons
+------------------------------
+Mileage: 105
+Fuel level:  3.63  gallons
+------------------------------
+Current Speed: 60 MPH
+Mileage: 106
+Fuel level:  3.38  gallons
+------------------------------
+Mileage: 107
+Fuel level:  3.38  gallons
+------------------------------
+Current Speed: 60 MPH
+Mileage: 108
+Fuel level:  3.32  gallons
+------------------------------
+Mileage: 109
+Fuel level:  3.32  gallons
+------------------------------
+Current Speed: 60 MPH
+Mileage: 110
+Fuel level:  3.16  gallons
+------------------------------
+Mileage: 111
+Fuel level:  3.16  gallons
+------------------------------
+Current Speed: 60 MPH
+Mileage: 112
+Fuel level:  2.97  gallons
+------------------------------
+Mileage: 113
+Fuel level:  2.97  gallons
+------------------------------
+Current Speed: 60 MPH
+Mileage: 114
+Fuel level:  2.84  gallons
+------------------------------
+Mileage: 115
+Fuel level:  2.84  gallons
+------------------------------
+Current Speed: 60 MPH
+Mileage: 116
+Fuel level:  2.68  gallons
+------------------------------
+Mileage: 117
+Fuel level:  2.68  gallons
+------------------------------
+Current Speed: 60 MPH
+Mileage: 118
+Fuel level:  2.40  gallons
+------------------------------
+Mileage: 119
+Fuel level:  2.40  gallons
+------------------------------
+Current Speed: 60 MPH
+Mileage: 120
+Fuel level:  0.97  gallons
+------------------------------
+Current Speed: 55 MPH
+Mileage: 121
+Fuel level:  0.83  gallons
+-Low Fuel!
+------------------------------
+Current Speed: 50 MPH
+Mileage: 122
+Fuel level:  0.74  gallons
+-Low Fuel!
+------------------------------
+Current Speed: 45 MPH
+Mileage: 123
+Fuel level:  0.49  gallons
+-Low Fuel!
+------------------------------
+Current Speed: 40 MPH
+Mileage: 124
+Fuel level:  0.26  gallons
+-Low Fuel!
+------------------------------
+Current Speed: 35 MPH
+Mileage: 125
+Fuel level:  0.12  gallons
+-Low Fuel!
+------------------------------
+Current Speed: 30 MPH
+Mileage: 126
+Fuel level:  0.00  gallons
+-Empty Tank!
+------------------------------
+Current Speed: 25 MPH
+Mileage: 126
+Fuel level:  0.00  gallons
+-Empty Tank!
+------------------------------
+Current Speed: 20 MPH
+Mileage: 126
+Fuel level:  0.00  gallons
+-Empty Tank!
+------------------------------
+Current Speed: 15 MPH
+Mileage: 126
+Fuel level:  0.00  gallons
+-Empty Tank!
+------------------------------
+Current Speed: 10 MPH
+Mileage: 126
+Fuel level:  0.00  gallons
+-Empty Tank!
+------------------------------
+Current Speed: 5 MPH
+Mileage: 126
+Fuel level:  0.00  gallons
+-Empty Tank!
+------------------------------
+Current Speed: 0 MPH
+Mileage: 126
+Fuel level:  0.00  gallons
+-Empty Tank!
+------------------------------
