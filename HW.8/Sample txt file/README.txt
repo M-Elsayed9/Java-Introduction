@@ -1,24 +1,27 @@
-Instructions for running program1: 
+Instructions for running Word count program: 
 
 -download the source file "WordCount.java" 
+-download the sample txt file "README" into the same folder
 -run the command javac WordCount.java 
--run the command "java WordCount" followed by the text file 
-name with the .txt extension
-E.G: java WordCount README.txt (both files must be in the same folder)
+-run the command java WordCount "followed by the text file 
+name with the .txt extension"
+E.g: java WordCount README.txt (both files must be in the same folder)
 or the desired text file location directory. 
 E.g java WordCount :/mnt/c/Users/HW8/src/README.txt
+-repeat the process for any text file to get the Word count
+-refer to the logs folder for more info on how to run the program
 
-Instructions for running program 2:
+Instructions for running the calculator program:
 
 -download the source file "Calculator.java" 
 -run the command javac Calculator.java
 -run the command java Calculator
--Enter the operator and the operands values as prompted on the screen
--if you enter invalid input you have to reenter the operator as prompted
--Enter 0 if you wish to exit
+-Enter the operator and the operand values as prompted on the screen
+-if you enter an invalid input you have to reenter the operator as prompted
+or enter 0 if you wish to exit
    
 
-Homework 8
+-Homework 8
 
 Program1:
 Write a word count program. Write a program that takes the name of text file(s) from the command line
