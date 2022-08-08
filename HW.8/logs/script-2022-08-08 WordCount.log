@@ -1,0 +1,19 @@
+Script started on 2022-08-08 16:08:22-04:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="156" LINES="8"]
+
+]0;mohamed@Mohamed-Elsayed: /mnt/c/Users/18329/eclipse-workspace/HW8/src[01;32mmohamed@Mohamed-Elsayed[00m:[01;34m/mnt/c/Users/18329/eclipse-workspace/HW8/src[00m$ 
+]0;mohamed@Mohamed-Elsayed: /mnt/c/Users/18329/eclipse-workspace/HW8/src[01;32mmohamed@Mohamed-Elsayed[00m:[01;34m/mnt/c/Users/18329/eclipse-workspace/HW8/src[00m$ javac WordCount.java 
+]0;mohamed@Mohamed-Elsayed: /mnt/c/Users/18329/eclipse-workspace/HW8/src[01;32mmohamed@Mohamed-Elsayed[00m:[01;34m/mnt/c/Users/18329/eclipse-workspace/HW8/src[00m$ java WordCount README.txt [K[K[K[K[K[K[K[K[K[K[Kblahblah
+File Name: (blahblah) : 
+File Not Found
+Enter the correct File name or directory
+Program Terminated
+]0;mohamed@Mohamed-Elsayed: /mnt/c/Users/18329/eclipse-workspace/HW8/src[01;32mmohamed@Mohamed-Elsayed[00m:[01;34m/mnt/c/Users/18329/eclipse-workspace/HW8/src[00m$ java WO[KordCount README.txt 
+File Name: (README.txt) : 
+Number of words: 224
+Number of Lines: 32
+Number of Charachters: 1302
+Program Terminated
+]0;mohamed@Mohamed-Elsayed: /mnt/c/Users/18329/eclipse-workspace/HW8/src[01;32mmohamed@Mohamed-Elsayed[00m:[01;34m/mnt/c/Users/18329/eclipse-workspace/HW8/src[00m$ exi[K[K[Kexit
+exit
+
+Script done on 2022-08-08 16:09:09-04:00 [COMMAND_EXIT_CODE="0"]

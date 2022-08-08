@@ -1,4 +1,4 @@
-Instructions for running Word count program: 
+Instructions for running program1: 
 
 -download the source file "WordCount.java" 
 -run the command javac WordCount.java 
@@ -7,9 +7,8 @@ name with the .txt extension
 E.G: java WordCount README.txt (both files must be in the same folder)
 or the desired text file location directory. 
 E.g java WordCount :/mnt/c/Users/HW8/src/README.txt
--refer to the logs folder for more info on how to run the program
 
-Instructions for running the calculator program:
+Instructions for running program 2:
 
 -download the source file "Calculator.java" 
 -run the command javac Calculator.java

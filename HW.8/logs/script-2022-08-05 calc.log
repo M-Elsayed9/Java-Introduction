@@ -1,0 +1,39 @@
+Script started on 2022-08-05 03:51:28-04:00 [TERM="xterm-256color" TTY="/dev/pts/1" COLUMNS="156" LINES="9"]
+]0;mohamed@Mohamed-Elsayed: /mnt/c/Users/18329/eclipse-workspace/HW8/src[01;32mmohamed@Mohamed-Elsayed[00m:[01;34m/mnt/c/Users/18329/eclipse-workspace/HW8/src[00m$ java C[K[Kc Calculator.java 
+]0;mohamed@Mohamed-Elsayed: /mnt/c/Users/18329/eclipse-workspace/HW8/src[01;32mmohamed@Mohamed-Elsayed[00m:[01;34m/mnt/c/Users/18329/eclipse-workspace/HW8/src[00m$ java Calculator 
+Enter the operator (+) (-) (*) (/) 
+or Enter (0) to exit: sdfsd
+(Invalid operator)
+
+Enter the operator (+) (-) (*) (/) 
+or Enter (0) to exit: +
+Enter the first addend: dfds
+(dfds) invalid input
+Enter digits only
+
+Enter the operator (+) (-) (*) (/) 
+or Enter (0) to exit: +
+Enter the first addend: 10
+Enter the second addend: 11.9
+The Sum of 10.0 + 11.9 = 21.9
+
+Enter the operator (+) (-) (*) (/) 
+or Enter (0) to exit: *
+Enter the multiplier: sdc
+(sdc) invalid input
+Enter digits only
+
+Enter the operator (+) (-) (*) (/) 
+or Enter (0) to exit: /
+Enter the dividend: 15
+Enter the divisor: 3
+The quotient of 15.0 / 3.0 = 5.0
+
+Enter the operator (+) (-) (*) (/) 
+or Enter (0) to exit: 0
+Exiting...
+Program Terminated
+]0;mohamed@Mohamed-Elsayed: /mnt/c/Users/18329/eclipse-workspace/HW8/src[01;32mmohamed@Mohamed-Elsayed[00m:[01;34m/mnt/c/Users/18329/eclipse-workspace/HW8/src[00m$ exit
+exit
+
+Script done on 2022-08-05 03:53:27-04:00 [COMMAND_EXIT_CODE="0"]
