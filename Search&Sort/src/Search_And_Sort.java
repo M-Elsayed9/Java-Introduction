@@ -4,12 +4,13 @@ import java.util.Scanner;
 public class Search_And_Sort {
 
 
-    // LINEAR SEARCH 
-    public static int LinearSearch(int arr[], int n){
+    //LINEAR SEARCH 
+    //unsorted array
+    public static int LinearSearch(int arr[], int searchValue){
     	//loop through the array
         for(int i = 0; i < arr.length; i++){
         	//if found return the index 
-            if(arr[i] == n)
+            if(arr[i] == searchValue)
             	System.out.println("Found");
                 return i;
         }
@@ -20,6 +21,8 @@ public class Search_And_Sort {
     
     
     // Binary SEARCH 
+    //this is the most efficient iterative version 
+    //needs to be sorted
     public static int BinarySearch(int arr[], int searchValue){
         //sort the array using the built sort method from the Arrays class
     	Arrays.sort(arr);
@@ -41,24 +44,25 @@ public class Search_And_Sort {
         return -1;
     }
     
-    
-    // Binary SEARCH Recursion 
-    public static int BinarySearchRecursion(int arr[], int s, int e, int n){
+    // Binary SEARCH Recursion is easier to implement but is slower
+    public static int BinarySearchRecursion(int arr[], int low, int high, int searchValue){
         Arrays.sort(arr);
         
-        if(s <= e){
-            int mid = s + ((e - s) / 2);
-            if(arr[mid] == n)
+        if(low <= high){
+            int mid = low + ((high - low) / 2);
+            if(arr[mid] == searchValue)
                 return mid;
-            else if(arr[mid] > n)
-                return BinarySearchRecursion(arr, s, mid - 1, n);
+            else if(arr[mid] > searchValue)
+                return BinarySearchRecursion(arr, low, mid - 1, searchValue);
             else
-                return BinarySearchRecursion(arr, mid + 1, e, n);
+                return BinarySearchRecursion(arr, mid + 1, high, searchValue);
         }
+        System.out.println("Not Found");
         return -1;
     }
     
     // SWAP FUNC 
+    //swaps two elements in an array
     public static void swap(int[] arr, int i, int j)
     {
     	//store the first element value in the variable temp
@@ -70,6 +74,10 @@ public class Search_And_Sort {
     }
     
     // Bubble Sort 
+    /*Bubble sort and insertion sort is suitable for sorting a small dataset. 
+     * Both have lower efficiency when compared to other 
+     * advanced sorting algorithms such as quicksort and merge sort. 
+     */
     public static void bubbleSort(int arr[]){
         boolean isSwaped = true;
         int i = 0;
@@ -85,21 +93,7 @@ public class Search_And_Sort {
         }
     }
     
-    // Selection Sort 
-    public static void selectionSort(int arr[]){
-        int min_indx;
-        for(int i = 0; i < arr.length-1; i++){
-            min_indx = i;
-            for(int j = i+1; j < arr.length; j++){
-                if(arr[min_indx] > arr[j])
-                    min_indx = j;
-            }
-            swap(arr, min_indx, i);
-        }
-    }
-    
-    
-    // Insertion Sort 
+ // Insertion Sort 
     public static void inserionSort(int arr[]){
         int k, i, j;
         for(i = 1; i < arr.length; i++){
@@ -113,7 +107,43 @@ public class Search_And_Sort {
         }
     }
     
+    // Selection Sort 
+    /*Use selection sort in the following scenarios:
+
+	1-When the array is NOT partially sorted
+	2-When we have memory usage constraints
+	3-When a simple sorting implementation is desired
+	4-When the array to be sorted is relatively small
+	
+	*Avoid using Selection sort when:
+	
+	The array to be sorted has a large number of elements
+	The array is nearly sorted
+	You want a faster run time and memory is not a concern.
+    */
+    public static void selectionSort(int arr[]){
+        int min_indx;
+        for(int i = 0; i < arr.length-1; i++){
+            min_indx = i;
+            for(int j = i+1; j < arr.length; j++){
+                if(arr[min_indx] > arr[j])
+                    min_indx = j;
+            }
+            swap(arr, min_indx, i);
+        }
+    }
+    
+ 
     // Merge Sort
+    /* Merge sort is a sorting algorithm based on the Divide and conquer strategy.
+     * The basic logic flows as follows:
+		1-If the array length is one, since it is trivially sorted, the array is returned.
+		2-If the array length is larger than one, we split the array in half.
+		3-Now, we recursively call merge sort on each of those halves.
+		4-On the return of these recursive calls, we combine the two already sorted half arrays to form a new sorted array.
+		5-As the recursive calls return from the stack, the eventual product is a fully sorted array.
+     * 
+     */
     public static void mergeSort(int arr[], int s, int e){
         int m;
         if(e > s){
@@ -159,20 +189,18 @@ public class Search_And_Sort {
             arr[k] = R[j];
             j++;
             k++;
-        }
-        
+        }  
     }
     
-   
     // Main
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int arr[] = new int[5];
-        int arr2[] = {5, 2, 8, 1, 3, 7};
-        int arr3[] = {1, 2, 8, 7, 9, 17, 55, 4};
-        int arr4[] = {1, 2, 8, 7, 9, 17, 55, 4, 9};
-        int arr5[] = {1, 2, 8, 7, 9, 17, 55, 4, 9, 5};
-        int arr6[] = {1, 2, 8, 7, 9, 17, 55, 4, 9, 5};
+        int arr2[] = {5, 2, 8, 1, 3, 7};//unsorted array
+        int arr3[] = {1, 2, 8, 7, 9, 17, 55, 4};//unsorted array
+        int arr4[] = {1, 2, 8, 7, 9, 17, 55, 4, 9};//unsorted array
+        int arr5[] = {1, 2, 8, 7, 9, 17, 55, 4, 9, 5};//unsorted array
+        int arr6[] = {1, 2, 8, 7, 9, 17, 55, 4, 9, 5};//unsorted array
         
         //prompt the user to enter the first element
         System.out.println("Enter Array Element : ");
@@ -181,29 +209,37 @@ public class Search_And_Sort {
             System.out.println("Enter Array Element : ");
         }
         
+       
         //Print the array before invoking any of the method 
         System.out.println(Arrays.toString(arr));
         
         System.out.println("==============LinearSearch================");
         System.out.println(LinearSearch(arr, 5));
+        
         System.out.println("==============BinarySearch================");
         System.out.println(BinarySearch(arr, 5));
         System.out.println(Arrays.toString(arr));
+        
         System.out.println("==============BinarySearchRecu.================");
         System.out.println(BinarySearchRecursion(arr, 0, arr.length-1, 5));
+        
         System.out.println("==============BubleSort.================");
         bubbleSort(arr2);
         System.out.println(Arrays.toString(arr2));
+        
         System.out.println("==============SelectionSort.================");
         selectionSort(arr3);
         System.out.println(Arrays.toString(arr3));
+        
         System.out.println("==============insertionSort.================");
         inserionSort(arr4);
         System.out.println(Arrays.toString(arr4));
+        
         System.out.println("==============MergeSort.================");
         mergeSort(arr5, 0, arr5.length-1);
         System.out.println(Arrays.toString(arr5));
         
-        
     }
+   
+    
 }
