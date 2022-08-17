@@ -1,0 +1,283 @@
+               Bowling Scores
+
+score1	score2	score3
+ 100	 150	 200
+
+Group is valid
+*a score of 100 is a good game score
+*a score of 150 is a very good game score
+*a score of 200 is an excellent game score
+Average of scores =  150
+
+
+
+ 251	 240	 266
+
+Group is valid
+*a score of 251 is a Professional game score
+*a score of 240 is an excellent game score
+*a score of 266 is a Professional game score
+Average of scores =  252
+
+
+
+ 100	 250	 300
+
+Group is valid
+*a score of 100 is a good game score
+*a score of 250 is a Professional game score
+*a score of 300 is a Professional game score
+Average of scores =  216
+
+
+
+ 600	 400	 200
+
+Group is invalid
+600 is more than 300
+400 is more than 300
+Average of scores =  400
+
+
+
+ 260	 299	 281
+
+Group is valid
+*a score of 260 is a Professional game score
+*a score of 299 is a Professional game score
+*a score of 281 is a Professional game score
+Average of scores =  280
+
+
+
+ 250	 255	 267
+
+Group is valid
+*a score of 250 is a Professional game score
+*a score of 255 is a Professional game score
+*a score of 267 is a Professional game score
+Average of scores =  257
+
+
+
+ 111	 333	 222
+
+Group is invalid
+333 is more than 300
+Average of scores =  222
+
+
+
+ 234	 123	 231
+
+Group is valid
+*a score of 234 is an excellent game score
+*a score of 123 is a good game score
+*a score of 231 is an excellent game score
+Average of scores =  196
+
+
+
+ 199	 299	 197
+
+Group is valid
+*a score of 199 is a very good game score
+*a score of 299 is a Professional game score
+*a score of 197 is a very good game score
+Average of scores =  231
+
+
+
+ 234	 345	 643
+
+Group is invalid
+345 is more than 300
+643 is more than 300
+Average of scores =  407
+
+
+
+ 123	 245	 543
+
+Group is invalid
+543 is more than 300
+Average of scores =  303
+
+
+
+ 49	 25	 150
+
+Group is valid
+*a score of 49 is a horrible game score
+*a score of 25 is a horrible game score
+*a score of 150 is a very good game score
+Average of scores =  74
+
+
+
+ 234	 999	 222
+
+Group is invalid
+999 is more than 300
+Average of scores =  485
+
+
+
+ -50	 200	 -53
+
+Group is invalid
+-50 is negative
+-53 is negative
+Average of scores =  32
+
+
+
+ 900	 250	 300
+
+Group is invalid
+900 is more than 300
+Average of scores =  483
+
+
+
+ 222	 -33	 250
+
+Group is invalid
+-33 is negative
+Average of scores =  146
+
+
+
+ 23	 56	 196
+
+Group is valid
+*a score of 23 is a horrible game score
+*a score of 56 is a poor game score
+*a score of 196 is a very good game score
+Average of scores =  91
+
+
+
+ 111	 222	 555
+
+Group is invalid
+555 is more than 300
+Average of scores =  296
+
+
+
+ 345	 -12	 234
+
+Group is invalid
+345 is more than 300
+-12 is negative
+Average of scores =  189
+
+
+
+ 159	 245	 299
+
+Group is valid
+*a score of 159 is a very good game score
+*a score of 245 is an excellent game score
+*a score of 299 is a Professional game score
+Average of scores =  234
+
+
+
+ 298	 -44	 -66
+
+Group is invalid
+-44 is negative
+-66 is negative
+Average of scores =  62
+
+
+
+ 250	 350	 200
+
+Group is invalid
+350 is more than 300
+Average of scores =  266
+
+
+
+ 200	 340	 299
+
+Group is invalid
+340 is more than 300
+Average of scores =  279
+
+
+
+ 150	 299	 -29
+
+Group is invalid
+-29 is negative
+Average of scores =  140
+
+
+
+ 900	 45	 540
+
+Group is invalid
+900 is more than 300
+540 is more than 300
+Average of scores =  495
+
+
+
+ 149	 176	 264
+
+Group is valid
+*a score of 149 is a very good game score
+*a score of 176 is a very good game score
+*a score of 264 is a Professional game score
+Average of scores =  196
+
+
+
+ 123	 234	 300
+
+Group is valid
+*a score of 123 is a good game score
+*a score of 234 is an excellent game score
+*a score of 300 is a Professional game score
+Average of scores =  219
+
+
+
+ 240	 10	 150
+
+Group is valid
+*a score of 240 is an excellent game score
+*a score of 10 is a horrible game score
+*a score of 150 is a very good game score
+Average of scores =  133
+
+
+
+ 500	 600	 750
+
+Group is invalid
+500 is more than 300
+600 is more than 300
+750 is more than 300
+Average of scores =  616
+
+
+
+ 299	 199	 99
+
+Group is valid
+*a score of 299 is a Professional game score
+*a score of 199 is a very good game score
+*a score of 99 is a poor game score
+Average of scores =  199
+
+
+
+
+30 Groups have been processed
+14valid Groups
+16invalid Groups
