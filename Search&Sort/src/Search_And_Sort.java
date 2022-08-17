@@ -3,22 +3,21 @@ import java.util.Scanner;
 
 public class Search_And_Sort {
 
-
     //LINEAR SEARCH 
     //unsorted array
     public static int LinearSearch(int arr[], int searchValue){
     	//loop through the array
         for(int i = 0; i < arr.length; i++){
         	//if found return the index 
-            if(arr[i] == searchValue)
-            	System.out.println("Found");
+            if(arr[i] == searchValue) {
+            	System.out.print("Found at position: ");
                 return i;
+            }
         }
         //if not found return 
         System.out.println("Not Found");
         return -1;
     }
-    
     
     // Binary SEARCH 
     //this is the most efficient iterative version 
@@ -29,11 +28,11 @@ public class Search_And_Sort {
     	
         int low  = 0, high = arr.length-1 , mid;
         
-        //
+        
         while(high >= low){
             mid = low + ((high - low) / 2);
             if(arr[mid] == searchValue) {
-            	System.out.println("Found");
+            	System.out.print("Found at position: ");
                 return mid;		//return the position 
             }else if(arr[mid] > searchValue) 		//if mid is bigger than searchValue 
                 high = mid - 1;						
@@ -84,14 +83,21 @@ public class Search_And_Sort {
         while(isSwaped){
             isSwaped = false;
             for(int j = 0; j < (arr.length) - i - 1; j++){
+            	
                 if(arr[j] > arr[j+1]){
-                    swap(arr, j, j+1);
+                	int temp = arr[j];
+                	arr[j] = arr[j+1];
+                	arr[j+1] = temp;
+                    //swap(arr, j, j+1);
                     isSwaped = true;
                 }
             }
             i++;
         }
     }
+    
+   
+
     
  // Insertion Sort 
     public static void inserionSort(int arr[]){
@@ -193,6 +199,8 @@ public class Search_And_Sort {
     }
     
     // Main
+    //this program has an int array of 5 elements which the users enters
+    //and 5 more arrays already declared and initiliazed to demonstarte the use of each of the sorting methods 
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int arr[] = new int[5];
@@ -239,7 +247,5 @@ public class Search_And_Sort {
         mergeSort(arr5, 0, arr5.length-1);
         System.out.println(Arrays.toString(arr5));
         
-    }
-   
-    
+    } 
 }
