@@ -1,0 +1,29 @@
+Enter Array Element : 
+90
+Enter Array Element : 
+70
+Enter Array Element : 
+50
+Enter Array Element : 
+10
+Enter Array Element : 
+30
+Enter Array Element : 
+[90, 70, 50, 10, 30]
+==============LinearSearch================
+0
+==============BinarySearch================
+Not Found
+-1
+[10, 30, 50, 70, 90]
+==============BinarySearchRecu.================
+Not Found
+-1
+==============BubleSort.================
+[1, 2, 3, 5, 7, 8]
+==============SelectionSort.================
+[1, 2, 4, 7, 8, 9, 17, 55]
+==============insertionSort.================
+[1, 2, 4, 7, 8, 9, 9, 17, 55]
+==============MergeSort.================
+[1, 2, 4, 5, 7, 8, 9, 9, 17, 55]
