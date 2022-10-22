@@ -1,5 +1,0 @@
-Vehicle Type: (F1)
-Hour		Distance Traveled
----------------------------------
-1				250
-2				500

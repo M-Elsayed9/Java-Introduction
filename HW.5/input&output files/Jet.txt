@@ -1,4 +1,0 @@
-Vehicle Type: (Jet)
-Hour		Distance Traveled
----------------------------------
--200 is invalid speed

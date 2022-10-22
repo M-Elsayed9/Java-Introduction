@@ -1,9 +1,0 @@
-vehicle,speed,time
-Train,120,5
-Car,100,6
-Scooter,30,4
-Moped,20,7
-Truck,80,8
-F1,250,2
-Bike,10,0
-Jet,-200,1

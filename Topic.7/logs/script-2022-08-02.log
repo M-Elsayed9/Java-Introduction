@@ -1,0 +1,38 @@
+Script started on 2022-08-02 21:07:47-04:00 [TERM="xterm-256color" TTY="/dev/pts/1" COLUMNS="120" LINES="30"]
+]0;mohamed@Mohamed-Elsayed: /mnt/c/github-repositories/cisc-1115/hw.7[01;32mmohamed@Mohamed-Elsayed[00m:[01;34m/mnt/c/github-repositories/cisc-1115/hw.7[00m$ javac Hw7.java
+]0;mohamed@Mohamed-Elsayed: /mnt/c/github-repositories/cisc-1115/hw.7[01;32mmohamed@Mohamed-Elsayed[00m:[01;34m/mnt/c/github-repositories/cisc-1115/hw.7[00m$ java Hw7
+Enter the Car Make: 
+BMW-350
+Enter the Model Year (1886-2022): 
+2023
+(2023) invalid input
+Enter a year between 1886 -2022
+Enter the Model Year (1886-2022): 
+bmw
+(bmw) invalid input
+Enter digits only
+Enter the Model Year (1886-2022): 
+2002
+
+Program terminated
+Please refer to the output file (BMW-350.txt)
+]0;mohamed@Mohamed-Elsayed: /mnt/c/github-repositories/cisc-1115/hw.7[01;32mmohamed@Mohamed-Elsayed[00m:[01;34m/mnt/c/github-repositories/cisc-1115/hw.7[00m$ java Hw.[K7
+Enter the Car Make: 
+Mercedes-700
+Enter the Model Year (1886-2022): 
+-1
+(-1) invalid input
+Enter a year between 1886 -2022
+Enter the Model Year (1886-2022): 
+mohamed
+(mohamed) invalid input
+Enter digits only
+Enter the Model Year (1886-2022): 
+2020
+
+Program terminated
+Please refer to the output file (Mercedes-700.txt)
+]0;mohamed@Mohamed-Elsayed: /mnt/c/github-repositories/cisc-1115/hw.7[01;32mmohamed@Mohamed-Elsayed[00m:[01;34m/mnt/c/github-repositories/cisc-1115/hw.7[00m$ exit
+exit
+
+Script done on 2022-08-02 21:09:45-04:00 [COMMAND_EXIT_CODE="0"]
