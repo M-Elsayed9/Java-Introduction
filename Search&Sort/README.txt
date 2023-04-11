@@ -1,4 +1,4 @@
-Topic: Search and soring algorithms 
+Topic: Search and sorting algorithms 
 
 -A class with methods that represent the different sorting and searching algorithms 
 
